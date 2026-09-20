@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sara777 App</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #111827, #1e3a8a);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 430px;
+      text-align: center;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 25px;
+      padding: 35px 25px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #d1d5db;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .download-btn {
+      display: block;
+      width: 100%;
+      padding: 17px 20px;
+      background: #22c55e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 14px;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 8px 25px rgba(34,197,94,0.3);
+      transition: 0.2s;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-2px);
+      background: #16a34a;
+    }
+
+    .info {
+      margin-top: 22px;
+      font-size: 13px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .steps {
+      margin-top: 25px;
+      text-align: left;
+    }
+
+    .step {
+      background: rgba(255,255,255,0.06);
+      padding: 12px 14px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 20px;
+      color: #94a3b8;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="card">
+
+      <img
+        src="logo.png"
+        alt="Sara777"
+        class="logo"
+      >
+
+      <h1>Sara777 App</h1>
+
+      <p class="subtitle">
+        Download the official app and install it on your Android device.
+      </p>
+
+      <!-- APK DOWNLOAD -->
+      <a
+        class="download-btn"
+        href="Sara777.apk"
+        download="Sara777.apk"
+      >
+        ⬇️ Download App
+      </a>
+
+      <div class="steps">
+        <div class="step">📥 Step 1 — Tap Download App</div>
+        <div class="step">📱 Step 2 — Open the downloaded APK</div>
+        <div class="step">⚙️ Step 3 — Install the application</div>
+      </div>
+
+      <p class="info">
+        Android device required. If Android asks for permission to install
+        an APK from your browser, enable the required permission and continue.
+      </p>
+
+    </div>
+
+    <footer>
+      © 2026 Sara777. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1109814828038541');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1037973845482271&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
